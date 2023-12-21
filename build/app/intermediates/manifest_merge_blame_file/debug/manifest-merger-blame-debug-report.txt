@@ -1,0 +1,397 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mental_health_app_ui"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\Tests\mental_health_app_ui\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->D:\Tests\mental_health_app_ui\android\app\src\debug\AndroidManifest.xml:7:22-64
+16
+17    <queries>
+17-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:35:5-44:15
+18        <intent>
+18-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:36:9-40:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:37:13-65
+19-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:37:21-62
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:38:13-74
+21-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:38:23-71
+22
+23            <data android:scheme="https" />
+23-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:39:13-44
+23-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:39:19-41
+24        </intent>
+25        <intent>
+25-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:41:9-43:18
+26            <action android:name="android.support.customtabs.action.CustomTabsService" />
+26-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:42:13-90
+26-->D:\Tests\mental_health_app_ui\android\app\src\main\AndroidManifest.xml:42:21-87
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+30-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:22-65
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:5-79
+31-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:22-76
+32    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+32-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+32-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:22-78
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+33-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+33-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:22-74
+34
+35    <permission
+35-->[androidx.core:core:1.10.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\a9e36cc24838c4ebd988dbabe7efeeb5\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+36        android:name="com.example.mental_health_app_ui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.10.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\a9e36cc24838c4ebd988dbabe7efeeb5\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.10.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\a9e36cc24838c4ebd988dbabe7efeeb5\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.example.mental_health_app_ui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.10.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\a9e36cc24838c4ebd988dbabe7efeeb5\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.10.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\a9e36cc24838c4ebd988dbabe7efeeb5\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+40
+41    <application
+42        android:name="android.app.Application"
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.10.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\a9e36cc24838c4ebd988dbabe7efeeb5\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+46        android:label="mental_health_app_ui" >
+47        <activity
+48            android:name="com.example.mental_health_app_ui.MainActivity"
+49            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50            android:exported="true"
+51            android:hardwareAccelerated="true"
+52            android:launchMode="singleTop"
+53            android:theme="@style/LaunchTheme"
+54            android:windowSoftInputMode="adjustResize" >
+55
+56            <!--
+57                 Specifies an Android theme to apply to this Activity as soon as
+58                 the Android process has started. This theme is visible to the user
+59                 while the Flutter UI initializes. After that, this theme continues
+60                 to determine the Window background behind the Flutter UI.
+61            -->
+62            <meta-data
+63                android:name="io.flutter.embedding.android.NormalTheme"
+64                android:resource="@style/NormalTheme" />
+65
+66            <intent-filter>
+67                <action android:name="android.intent.action.MAIN" />
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+70            </intent-filter>
+71        </activity>
+72        <!--
+73             Don't delete the meta-data below.
+74             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+75        -->
+76        <meta-data
+77            android:name="flutterEmbedding"
+78            android:value="2" />
+79
+80        <provider
+80-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+81            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+81-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+82            android:authorities="com.example.mental_health_app_ui.flutter.image_provider"
+82-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+83            android:exported="false"
+83-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+84            android:grantUriPermissions="true" >
+84-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+85            <meta-data
+85-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+87                android:resource="@xml/flutter_image_picker_file_paths" />
+87-->[:image_picker_android] D:\Tests\mental_health_app_ui\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+88        </provider>
+89
+90        <activity
+90-->[:url_launcher_android] D:\Tests\mental_health_app_ui\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+91            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+91-->[:url_launcher_android] D:\Tests\mental_health_app_ui\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+92            android:exported="false"
+92-->[:url_launcher_android] D:\Tests\mental_health_app_ui\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+93            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+93-->[:url_launcher_android] D:\Tests\mental_health_app_ui\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+94
+95        <provider
+95-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+97            android:authorities="com.example.mental_health_app_ui.androidx-startup"
+97-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+98            android:exported="false" >
+98-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+99            <meta-data
+99-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+100                android:name="androidx.work.WorkManagerInitializer"
+100-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+101                android:value="androidx.startup" />
+101-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+102            <meta-data
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+104                android:value="androidx.startup" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+105        </provider>
+106
+107        <service
+107-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+108            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+108-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+109            android:directBootAware="false"
+109-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+110            android:enabled="@bool/enable_system_alarm_service_default"
+110-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+111            android:exported="false" />
+111-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+112        <service
+112-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+113            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+113-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+114            android:directBootAware="false"
+114-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+115            android:enabled="@bool/enable_system_job_service_default"
+115-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+116            android:exported="true"
+116-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+117            android:permission="android.permission.BIND_JOB_SERVICE" />
+117-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+118        <service
+118-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+119            android:name="androidx.work.impl.foreground.SystemForegroundService"
+119-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+120            android:directBootAware="false"
+120-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+121            android:enabled="@bool/enable_system_foreground_service_default"
+121-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+122            android:exported="false" />
+122-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+123
+124        <receiver
+124-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+125            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+125-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+126            android:directBootAware="false"
+126-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+127            android:enabled="true"
+127-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+128            android:exported="false" />
+128-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+129        <receiver
+129-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+130            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+130-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+131            android:directBootAware="false"
+131-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+132            android:enabled="false"
+132-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+133            android:exported="false" >
+133-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+134            <intent-filter>
+134-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+135                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+135-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+135-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+136                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+136-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+136-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+137            </intent-filter>
+138        </receiver>
+139        <receiver
+139-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+140            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+140-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+141            android:directBootAware="false"
+141-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+142            android:enabled="false"
+142-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+143            android:exported="false" >
+143-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+144            <intent-filter>
+144-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+145                <action android:name="android.intent.action.BATTERY_OKAY" />
+145-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+145-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+146                <action android:name="android.intent.action.BATTERY_LOW" />
+146-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+146-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+147            </intent-filter>
+148        </receiver>
+149        <receiver
+149-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+150            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+150-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+151            android:directBootAware="false"
+151-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+152            android:enabled="false"
+152-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+153            android:exported="false" >
+153-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+154            <intent-filter>
+154-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+155                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+155-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+155-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+156                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+156-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+156-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+157            </intent-filter>
+158        </receiver>
+159        <receiver
+159-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+160            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+160-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+161            android:directBootAware="false"
+161-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+162            android:enabled="false"
+162-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+163            android:exported="false" >
+163-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+164            <intent-filter>
+164-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+165                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+165-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+165-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+166            </intent-filter>
+167        </receiver>
+168        <receiver
+168-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+169            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+169-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+170            android:directBootAware="false"
+170-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+171            android:enabled="false"
+171-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+172            android:exported="false" >
+172-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+173            <intent-filter>
+173-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+174                <action android:name="android.intent.action.BOOT_COMPLETED" />
+174-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:17-79
+174-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:117:25-76
+175                <action android:name="android.intent.action.TIME_SET" />
+175-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+175-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+176                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+176-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+176-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+177            </intent-filter>
+178        </receiver>
+179        <receiver
+179-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+180            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+180-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+182            android:enabled="@bool/enable_system_alarm_service_default"
+182-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+183            android:exported="false" >
+183-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+184            <intent-filter>
+184-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+185                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+185-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+185-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+186            </intent-filter>
+187        </receiver>
+188        <receiver
+188-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+189            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+189-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+190            android:directBootAware="false"
+190-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+191            android:enabled="true"
+191-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+192            android:exported="true"
+192-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+193            android:permission="android.permission.DUMP" >
+193-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+194            <intent-filter>
+194-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+195                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+195-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+195-->[androidx.work:work-runtime:2.8.1] C:\Users\kennedy.juma\.gradle\caches\transforms-3\d43732a9d47ba14402e033bfd7e8f33f\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+196            </intent-filter>
+197        </receiver>
+198
+199        <service
+199-->[androidx.room:room-runtime:2.5.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\5317d594a7b18c8e9e4980eb39a02472\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+200            android:name="androidx.room.MultiInstanceInvalidationService"
+200-->[androidx.room:room-runtime:2.5.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\5317d594a7b18c8e9e4980eb39a02472\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+201            android:directBootAware="true"
+201-->[androidx.room:room-runtime:2.5.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\5317d594a7b18c8e9e4980eb39a02472\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+202            android:exported="false" />
+202-->[androidx.room:room-runtime:2.5.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\5317d594a7b18c8e9e4980eb39a02472\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+203
+204        <uses-library
+204-->[androidx.window:window:1.0.0-beta04] C:\Users\kennedy.juma\.gradle\caches\transforms-3\ad6c380c7b197003fe6d4fd9c15b6f53\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+205            android:name="androidx.window.extensions"
+205-->[androidx.window:window:1.0.0-beta04] C:\Users\kennedy.juma\.gradle\caches\transforms-3\ad6c380c7b197003fe6d4fd9c15b6f53\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+206            android:required="false" />
+206-->[androidx.window:window:1.0.0-beta04] C:\Users\kennedy.juma\.gradle\caches\transforms-3\ad6c380c7b197003fe6d4fd9c15b6f53\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+207        <uses-library
+207-->[androidx.window:window:1.0.0-beta04] C:\Users\kennedy.juma\.gradle\caches\transforms-3\ad6c380c7b197003fe6d4fd9c15b6f53\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+208            android:name="androidx.window.sidecar"
+208-->[androidx.window:window:1.0.0-beta04] C:\Users\kennedy.juma\.gradle\caches\transforms-3\ad6c380c7b197003fe6d4fd9c15b6f53\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+209            android:required="false" />
+209-->[androidx.window:window:1.0.0-beta04] C:\Users\kennedy.juma\.gradle\caches\transforms-3\ad6c380c7b197003fe6d4fd9c15b6f53\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+210
+211        <receiver
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+212            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+213            android:directBootAware="false"
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+214            android:enabled="true"
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+215            android:exported="true"
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+216            android:permission="android.permission.DUMP" >
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+217            <intent-filter>
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+218                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+218-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+218-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+219            </intent-filter>
+220            <intent-filter>
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+221                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+221-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+221-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+222            </intent-filter>
+223            <intent-filter>
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+224                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+224-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+225            </intent-filter>
+226            <intent-filter>
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+227                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+227-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kennedy.juma\.gradle\caches\transforms-3\12ee85aa1a61c81e9a41669a8333f99c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+228            </intent-filter>
+229        </receiver>
+230    </application>
+231
+232</manifest>

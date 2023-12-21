@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.mental_health_app_ui.app-mergeDebugResources-27:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kennedy.juma\\.gradle\\caches\\transforms-3\\d43732a9d47ba14402e033bfd7e8f33f\\transformed\\work-runtime-2.8.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}
